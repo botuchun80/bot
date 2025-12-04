@@ -4,7 +4,7 @@ const items = [
   {id:3,img:"https://i.imgur.com/7J7w3cP.jpeg",name:"Hamburger",price:45000},
   {id:4,img:"https://i.imgur.com/LYh8Prs.jpeg",name:"Double Cheeseburger",price:35000},
   {id:5,img:"https://i.imgur.com/LYh8Prs.jpeg",name:"Pepsi",price:10000},
-  {id:6,img:"https://i.ibb.co/q3590gwQ/cia493tenntd8rfc2s40-1.jpg",name:"Coca-Cola",price:10000}
+  {id:6,img:"https://i.imgur.com/o43iU1J.jpeg",name:"Coca-Cola",price:10000}
 ];
 
 const list = document.getElementById('list');
