@@ -3,41 +3,15 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>FastFood</title>
+  <title>Apex | BLACK</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css"/>
   <script src="https://telegram.org/js/telegram-web-app.js" defer></script>
 </head>
 <body>
-  <!-- =====  CHAMPAGNE SAVAT BAR  ===== -->
-  <div id="cartBar" class="cart-bar hidden">
-    <span class="cart-bar-label">Savat</span>
-    <span id="cartBarSum" class="cart-bar-sum">0 so‘m</span>
-    <svg class="cart-diamond" viewBox="0 0 24 24" onclick="openCart()">
-      <path d="M12 2L4 9l8 7 8-7-8-7zM4 9v10l8 5 8-5V9l-8 7-8-7z"/>
-    </svg>
-    <span id="cartBarCount" class="cart-bar-count">0</span>
-  </div>
-
-  <!-- =====  OVQATLAR (parallax)  ===== -->
+  <!-- =====  FAQAT OVQATLAR  ===== -->
   <div id="list"></div>
 
-  <!-- =====  DIAMOND OVERLAY (parallax + 3D)  ===== -->
-  <div id="cartOverlay" class="overlay hidden">
-    <div class="cart-modal" data-tilt>
-      <div class="cart-head">
-        <span>Savat</span>
-        <span class="close" onclick="closeCart()">✖</span>
-      </div>
-      <ul id="cartList"></ul>
-      <div class="cart-total">
-        <span>Jami</span><span id="cartSum">0 so‘m</span>
-      </div>
-      <button class="btn-order" onclick="checkLocation()">💎 Buyurtma berish</button>
-    </div>
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
